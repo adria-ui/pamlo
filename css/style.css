@@ -1,0 +1,134 @@
+    
+    body{
+    background-color:rgb(167, 123, 66);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:brown ;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+/*.navbar{
+    border-bottom: brown solid 2px;
+}*/
+/*.navbar .navbar-brand{
+    color:brown !important;
+    font-size: 25px;
+}*/
+.nav-link{
+    text-transform: uppercase;
+
+}
+/*.nav-link:hover{
+    color:brown   !important;
+}*/
+.navbar-nav{
+    text-align: right;
+}
+#header{
+    background: url("../images/2.jpeg") no-repeat ;
+    background-size: cover;
+    background-attachment:fixed ;
+    height:100vh;
+    
+}
+h1{
+    color: brown;
+}
+/*header .overlay{
+    background-color: rgba(26, 0, 26, .4);
+    height:100vh;
+
+}*/
+.btn-secondary{
+    cursor: pointer;
+}
+.btn-secondary:hover{
+    background-color: brown;
+}
+#feature i{
+    color: brown;
+    cursor: pointer;
+}
+#feature h3:hover{
+    color: brown;
+    cursor: pointer;
+}
+#prgh{
+    color: white;
+}
+#work{
+    background: url("../images/4.jpeg")no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover ;
+
+}
+#work i{
+    color: brown;
+}
+#footer{
+    background-color: black;
+    width: 100%;
+}
+#footer .container{
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    margin: 20px 0;
+}
+.social a{
+    color: white;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.second-content h2{
+font-size: 1.2rem;
+text-transform: uppercase;
+}
+#footer .container .content{
+    padding: 10px 20px;
+    color: white;
+}
+.second-content{
+    margin-left: 100px;
+}
+h2{
+    text-transform: uppercase;
+}
+.text,h2{
+    color: white;
+}
+@media screen and (max-width 1200px){
+    #header{
+        background-size: 1200px 100vh;
+    }
+
+}
+@media screen and (max-width 992px){
+    #header{
+        background-size: 992px 100vh;
+    }
+
+}
+@media screen and (max-width 768px){
+    #header{
+        background-size: 768px 100vh;
+    }
+}
+@media screen and (max-width 576px){
+    #header{
+        background-size: 576px 100vh;
+    }
+}
