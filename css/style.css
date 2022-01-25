@@ -91,7 +91,37 @@ h1{
     margin-left: -10px;
     z-index: 70px;
 }
+#gallery{
+    background-color: wheat;
+}
+#gallery .col-md-3{
 
+    padding-left:0 ;
+    padding-right: 0;
+}
+.ImageContainer{
+    position: relative;
+    cursor: pointer;
+}
+.imgOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 0, 26);
+    opacity: 0;
+}
+.ImageContainer:hover .imgOverlay{
+    opacity: .5;
+}
+
+.imgtext{
+    position: absolute;
+    color: white;
+}
 #footer .container{
     margin: auto;
     padding: 0 20px;
@@ -124,26 +154,4 @@ h2{
 }
 .text,h2{
     color: white;
-}
-@media screen and (max-width 1200px){
-    #header{
-        background-size: 1200px 100vh;
-    }
-
-}
-@media screen and (max-width 992px){
-    #header{
-        background-size: 992px 100vh;
-    }
-
-}
-@media screen and (max-width 768px){
-    #header{
-        background-size: 768px 100vh;
-    }
-}
-@media screen and (max-width 576px){
-    #header{
-        background-size: 576px 100vh;
-    }
 }
