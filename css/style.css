@@ -77,6 +77,21 @@ h1{
     background-color: black;
     width: 100%;
 }
+#history{
+    background-color: #f0f0f5;
+}
+.historyArea{
+    background-color:white;
+    height: 450px;
+    margin-right: -50px;
+    padding: 30px;
+}
+.HistoryImage{
+    margin-top:90px ;   
+    margin-left: -10px;
+    z-index: 70px;
+}
+
 #footer .container{
     margin: auto;
     padding: 0 20px;
